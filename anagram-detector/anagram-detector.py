@@ -41,7 +41,7 @@ def format_anagrams(lookup_key, anagram_set):
     output += formatted_anagrams
     output += '")”\n'
     output += format_occurence_counts(lookup_key)
-    output += '\n'
+
     return output
 
 
